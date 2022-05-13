@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../layout/custom_preview.xml" value="0.16018518518518518" />
+        <entry key="app/src/main/res/drawable/bg_available.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/bg_class.xml" value="0.1025" />
+        <entry key="app/src/main/res/drawable/bg_class_2.xml" value="0.1255" />
+        <entry key="app/src/main/res/drawable/bg_class_available.xml" value="0.1635" />
+        <entry key="app/src/main/res/drawable/bg_class_available_click.xml" value="0.1255" />
+        <entry key="app/src/main/res/drawable/bg_class_available_unclick.xml" value="0.1255" />
+        <entry key="app/src/main/res/drawable/bg_class_booked.xml" value="0.1255" />
+        <entry key="app/src/main/res/drawable/bg_class_normal.xml" value="0.1025" />
+        <entry key="app/src/main/res/drawable/btn_chevron_left.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/btn_chevron_right.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_chevron_left_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_chevron_left_24_grey_700.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_chevron_left_24_teal.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_chevron_right_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_chevron_right_24_teal.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_chevron_right_grey_700.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2742616033755274" />
+        <entry key="app/src/main/res/layout/fragment_teacher.xml" value="0.15677083333333333" />
+        <entry key="app/src/main/res/layout/item_class.xml" value="0.27848101265822783" />
+        <entry key="app/src/main/res/layout/item_schedule.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
