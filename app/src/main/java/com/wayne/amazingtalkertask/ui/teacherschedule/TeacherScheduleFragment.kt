@@ -1,6 +1,8 @@
 package com.wayne.amazingtalkertask.ui.teacherschedule
 
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.google.android.material.tabs.TabLayoutMediator
@@ -17,8 +19,12 @@ class TeacherScheduleFragment : BaseFragment<FragmentTeacherScheduleBinding>(R.l
 
     private lateinit var teacherScheduleAdapter: TeacherScheduleAdapter
 
-    override fun bindView(view: View): FragmentTeacherScheduleBinding {
-        return FragmentTeacherScheduleBinding.bind(view)
+    override fun bindingInflate(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        attachToParent: Boolean
+    ): FragmentTeacherScheduleBinding {
+        return FragmentTeacherScheduleBinding.inflate(inflater, container, attachToParent)
     }
 
     override fun init() {
