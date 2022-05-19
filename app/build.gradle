@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'androidx.navigation.safeargs'
 }
 
 android {
@@ -67,12 +68,16 @@ dependencies {
     implementation "io.insert-koin:koin-androidx-compose:$koin_version"
 //    testImplementation "io.insert-koin:koin-test:$koin_version"
 
-    def mockito_version = "3.1.0"
     testImplementation "org.mockito:mockito-core:4.0.0"
     testImplementation "org.mockito:mockito-inline:4.0.0"
     testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0"
 
     testImplementation 'androidx.arch.core:core-testing:2.1.0'
+
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
+    androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

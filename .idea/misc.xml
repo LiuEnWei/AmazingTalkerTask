@@ -20,8 +20,9 @@
         <entry key="app/src/main/res/drawable/ic_chevron_right_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_chevron_right_24_teal.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_chevron_right_grey_700.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2742616033755274" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_teacher.xml" value="0.15677083333333333" />
+        <entry key="app/src/main/res/layout/fragment_teacher_schedule.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_class.xml" value="0.27848101265822783" />
         <entry key="app/src/main/res/layout/item_schedule.xml" value="0.1" />
       </map>
