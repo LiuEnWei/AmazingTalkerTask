@@ -135,5 +135,8 @@ class MainViewModel() : ViewModel(), TeacherScheduleAdapter.TeacherScheduleViewM
             return@filter it.start >= scheduleTab.start && it.start < scheduleTab.end
         }.catch {
         }.toList()
+        .sortedBy {
+            it.start
+        }
     }
 }
