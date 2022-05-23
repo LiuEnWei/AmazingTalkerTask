@@ -5,7 +5,7 @@ import androidx.lifecycle.Observer
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.whenever
 import com.wayne.amazingtalkertask.data.vo.ScheduleResponse
-import com.wayne.amazingtalkertask.repository.AmazingTalkerRepository
+import com.wayne.amazingtalkertask.data.repository.AmazingTalkerRepository
 import com.wayne.amazingtalkertask.ui.MainViewModel
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.flow

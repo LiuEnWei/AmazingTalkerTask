@@ -1,4 +1,4 @@
-package com.wayne.amazingtalkertask.repository
+package com.wayne.amazingtalkertask.data.repository
 
 import com.wayne.amazingtalkertask.data.remote.AmazingTalkerService
 import com.wayne.amazingtalkertask.data.vo.ScheduleResponse

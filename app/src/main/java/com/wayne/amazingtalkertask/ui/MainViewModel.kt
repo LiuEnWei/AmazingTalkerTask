@@ -8,7 +8,7 @@ import com.wayne.amazingtalkertask.Constant
 import com.wayne.amazingtalkertask.data.vo.ClassTime
 import com.wayne.amazingtalkertask.data.vo.ScheduleTab
 import com.wayne.amazingtalkertask.data.vo.TeacherSchedule
-import com.wayne.amazingtalkertask.repository.AmazingTalkerRepository
+import com.wayne.amazingtalkertask.data.repository.AmazingTalkerRepository
 import com.wayne.amazingtalkertask.utils.DateTimeUtils
 import com.wayne.amazingtalkertask.utils.DateTimeUtils.addDay
 import com.wayne.amazingtalkertask.utils.DateTimeUtils.formatToString
