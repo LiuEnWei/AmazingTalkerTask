@@ -12,9 +12,9 @@ import kotlinx.coroutines.launch
 
 class TeacherScheduleAdapter(val scheduleTabs: List<ScheduleTab>,
                              private val lifecycleOwner: LifecycleOwner,
-                             private val teacherScheduleViewModel: TeacherScheduleViewModel) : RecyclerView.Adapter<TeacherScheduleAdapter.ViewHolder>() {
+                             private val teacherScheduleCallBack: TeacherScheduleCallBack) : RecyclerView.Adapter<TeacherScheduleAdapter.ViewHolder>() {
 
-    interface TeacherScheduleViewModel {
+    interface TeacherScheduleCallBack {
         suspend fun getSchedule(scheduleTab: ScheduleTab, data: List<ClassTime>): List<ClassTime>
     }
 
@@ -48,7 +48,7 @@ class TeacherScheduleAdapter(val scheduleTabs: List<ScheduleTab>,
                 if (position >= scheduleTabs.size) {
                     return@launch
                 }
-                val dailySchedule = teacherScheduleViewModel.getSchedule(scheduleTabs[position], data)
+                val dailySchedule = teacherScheduleCallBack.getSchedule(scheduleTabs[position], data)
                 binding.recyclerviewDailySchedule.adapter = DailyScheduleAdapter(dailySchedule)
             }
         }

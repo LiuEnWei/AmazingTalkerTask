@@ -20,7 +20,7 @@ import org.koin.core.component.inject
 import java.util.*
 import java.util.concurrent.TimeUnit
 
-class MainViewModel() : ViewModel(), TeacherScheduleAdapter.TeacherScheduleViewModel, KoinComponent {
+class MainViewModel() : ViewModel(), TeacherScheduleAdapter.TeacherScheduleCallBack, KoinComponent {
     private val amazingTalkerRepository: AmazingTalkerRepository by inject()
 
     private val day1 = TimeUnit.DAYS.toMillis(1)
